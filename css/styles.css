@@ -62,10 +62,6 @@ button {
     background-color: var(--iris);
 }
 
-p {
-    font-size: 16px;
-}
-
 /* Style klas */
 
 .visually-hidden {
@@ -75,6 +71,10 @@ p {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.section-paragraph {
+    font-size: 16px;
 }
 
 /* Nawigacja */
