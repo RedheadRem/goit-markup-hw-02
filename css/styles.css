@@ -21,7 +21,7 @@ h1 {
     color: var(--white);
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.071;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -91,8 +91,8 @@ button {
 }
 
 .logo-distinction-footer {
-    /* --logo-color-footer: #F4F4FD;
-    color: var(--cloud); */
+    /* --logo-color-footer: #F4F4FD; */
+    color: var(--cloud);
 }
 
 .nav-link {
@@ -131,6 +131,12 @@ button {
     font-weight: 500;
     letter-spacing: 0.04em;
     color: var(--white);
+    line-height: 1.5;
+}
+
+.first-section-button:hover,
+.first-section-button:focus {
+    background-color: var(--ocean);
 }
 
 /* Trzecia sekcja */
