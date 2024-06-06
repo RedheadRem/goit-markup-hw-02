@@ -3,7 +3,7 @@
 
 body {
     --text-color: #434455;
-    --bg-color: ##FFF;
+    --bg-color: ##FFFFFF;
      font-family: Roboto, sans-serif;
      color: var(--text-color);
      background-color: var(--bg-color);
@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-    --header-color: #FFF;
+    --header-color: #FFFFFF;
     color: var(--header-color);
     font-weight: 700;
     font-size: 56px;
@@ -57,7 +57,6 @@ ul {
 button {
     --button-bg: #4D5AE5;
     cursor: pointer;
-    border-radius: 4px;
     background-color: var(--button-bg);
 }
 
@@ -94,8 +93,9 @@ address {
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.166;
+    line-height: 1.17;
     color: var(--logo-color);
+    letter-spacing: 0.03em;
 }
 
 .logo-distinction-header {
@@ -116,13 +116,10 @@ address {
 }
 
 .first-section-button {
-    --button-color: #FFF;
+    --button-color: #FFFFFF;
     font-weight: 500;
     letter-spacing: 0.04em;
     color: var(--button-color);
-    padding: 16px 32px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 }
 
 /* Trzecia sekcja */
@@ -134,10 +131,7 @@ address {
 }
 
 .third-section li {
-    --li-color: #FFF;
+    --li-color: #FFFFFF;
     background-color: var(--li-color);
-    padding: 32px;
     margin: 24px;
-    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
 }
