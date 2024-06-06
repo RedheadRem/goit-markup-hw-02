@@ -51,7 +51,19 @@ button {
     cursor: pointer;
 }
 
-/* Style nagłówków */
+address {
+    font-style: normal;
+}
+
+/* Style klas */
+
+.medium-text {
+    --medium-text-color: #2E2F42;
+    font-weight: 500;
+    color: var(--medium-text-color);
+}
+
+/* Logo */
 
 .logo {
     --logo-color: #4D5AE5;
