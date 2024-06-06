@@ -52,3 +52,23 @@ button {
 }
 
 /* Style nagłówków */
+
+.logo {
+    --logo-color: #4D5AE5;
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.166;
+    color: var(--logo-color);
+}
+
+.logo-distinction-header {
+    --logo-color-header: #2E2F42;
+    color: var(--logo-color-header);
+}
+
+.logo-distinction-footer {
+    --logo-color-footer: #F4F4FD;
+    /* color: var(--logo-color-footer); */
+}
