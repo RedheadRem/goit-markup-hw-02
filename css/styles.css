@@ -77,6 +77,10 @@ button {
     font-size: 16px;
 }
 
+.section-heading-second {
+    text-align: center;
+}
+
 /* Nawigacja */
 
 .logo {
