@@ -44,9 +44,6 @@ h3 {
 
 a {
     color: inherit;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.04em;
     text-decoration: none;
 }
 
@@ -60,17 +57,7 @@ button {
     background-color: var(--button-bg);
 }
 
-address {
-    font-style: normal;
-}
-
 /* Style klas */
-
-.medium-text {
-    --medium-text-color: #2E2F42;
-    font-weight: 500;
-    color: var(--medium-text-color);
-}
 
 .visually-hidden {
     margin: -1px;
@@ -81,7 +68,7 @@ address {
     overflow: hidden;
 }
 
-/* Logo */
+/* Nawigacja */
 
 .logo {
     --logo-color: #4D5AE5;
@@ -102,6 +89,24 @@ address {
 .logo-distinction-footer {
     --logo-color-footer: #F4F4FD;
     /* color: var(--logo-color-footer); */
+}
+
+.nav-link {
+    --nav-link-color: #2E2F42;
+    font-weight: 500;
+    color: var(--nav-link-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    --interactive-link-color: #404BBF;
+    color: var(--interactive-link-color);
+}
+
+.address {
+    font-style: normal;
 }
 
 /* Sekcja pierwsza */
