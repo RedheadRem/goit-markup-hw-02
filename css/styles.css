@@ -1,0 +1,15 @@
+
+/* Style globalne */
+
+body {
+    --text-color: #434455;
+    --bg-color: #FCFCFC;
+     font-family: Roboto, sans-serif;
+     color: var(--text-color);
+     background-color: var(--bg-color);
+     line-height: 1.5;
+     letter-spacing: 0.02em;
+
+}
+
+/* Style nagłówków */
