@@ -99,8 +99,14 @@ button {
     letter-spacing: 0.02em;
 }
 
+.address-link {
+    color: var(--text-color);
+}
+
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.address-link:hover,
+.address-link:focus {
     --interactive-link-color: #404BBF;
     color: var(--interactive-link-color);
 }
