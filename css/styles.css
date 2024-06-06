@@ -161,3 +161,7 @@ button {
     background-color: var(--white);
     margin: 24px;
 }
+
+.footer {
+    background-color: var(--grey));
+}
