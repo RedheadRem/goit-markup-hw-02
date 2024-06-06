@@ -36,6 +36,7 @@ h2 {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     
 }
 
@@ -59,6 +60,10 @@ button {
     /* --button-bg: #4D5AE5; */
     cursor: pointer;
     background-color: var(--iris);
+}
+
+p {
+    font-size: 16px;
 }
 
 /* Style klas */
