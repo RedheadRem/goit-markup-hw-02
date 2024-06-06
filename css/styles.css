@@ -163,5 +163,10 @@ button {
 }
 
 .footer {
-    background-color: var(--grey));
+    background-color: var(--grey);
+}
+
+.footer-paragraph {
+    color: var(--cloud);
+    font-size: 16px;
 }
